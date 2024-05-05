@@ -1,4 +1,4 @@
-input[type="file"]::file-selector-button {  
+/* input[type="file"]::file-selector-button {  
     border-radius: 4px;
     padding: 0 16px;
     height: 40px;
@@ -31,7 +31,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color: f3f4f6;
+    background-color: rgba(0, 187, 56, 0.726);
 }
 
 body{
@@ -41,4 +41,32 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.navbar_image{
+    display: inline ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
